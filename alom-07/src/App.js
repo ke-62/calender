@@ -2,10 +2,11 @@ import { useState } from "react";
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
 import { Container, Title } from "./components/styles/StyledComponents";
+import { useLocalStorage } from "./hooks/useLocalStorage";
 
 function App() {
   const [toDo, setToDo] = useState("");
-  const [toDos, setToDos] = useState([]);
+  const [toDos, setToDos] = useLocalStorage("toDos", []);
 
   const onChange = (event) => setToDo(event.target.value);
 
