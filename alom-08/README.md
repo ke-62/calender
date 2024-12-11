@@ -2,6 +2,17 @@
 
 Open-Meteo API를 사용하여 서울의 현재 날씨, 12시간 예보 및 7일 예보를 표시하는 React.js 날씨 애플리케이션입니다.
 
+## 과제 내용
+현재 마크업과 API 호출은 구현되어 있어요!
+
+- [ ] DailyForcast.js 컴포넌트 완성하기
+- [ ] CurrentWeather.js 컴포넌트 완성하기
+- [ ] HourlyForcast.js 컴포넌트 완성하기
+- [ ] utils/weather.js 내 데이터 포맷팅 함수 2개 완성하기
+
+### 요렇게 만들기
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/0552982d-b3b1-4092-828a-77d38ddaa1f6" />
+
 ## API 구조
 
 다음 엔드포인트로 Open-Meteo API를 사용합니다:
